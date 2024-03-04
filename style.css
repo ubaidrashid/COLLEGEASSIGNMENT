@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: white;
+}
+
+.container{
+    width: 600px;
+    /* height: 80%; */
+    /* border-radius: 12px; */
+    display: flex;
+    border: 1px solid black;
+}
+.studentone{
+   height:100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-evenly; */
+   /* align-items: center; */
+}
+ .departmentone{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    
+}
+.universityone{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+} 
+li{
+height:57px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+border: 1px solid black;
+}
